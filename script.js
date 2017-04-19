@@ -81,7 +81,7 @@ else{
       + '<img class="profile_image" src="' + prof + '">'
       + '</div>'
       + '<div class="profile_name">'
-      + '<a href="' + data._links.channel + '" target="_blank">'
+      + '<a href="' + data.url + '" target="_blank">'
       + '<img width="16px" src="glitch.png">/'
       + data.name
       + '</a>'
