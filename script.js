@@ -39,7 +39,7 @@ function htmlfy(json){
   + '<img class="profile_image" src="' + prof + '">'
   + '</div>'
   + '<div class="profile_name">'
-  + 'a href="' + json._links.channel + '" target="_blank">'
+  + '<a href="' + json._links.channel + '" target="_blank">'
   + '<img width="16px" src="glitch.png">'
   + json.stream.channel.name
   + '</a>'
